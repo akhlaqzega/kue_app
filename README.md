@@ -34,8 +34,7 @@
 ```bash
 git clone https://github.com/username/kueku.git
 cd kueku
-composer install
-npm install && npm run build
+composer updatw
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
